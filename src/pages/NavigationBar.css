@@ -1,0 +1,48 @@
+@font-face {
+    font-family: 'Andale';
+    font-style: normal;
+    font-weight: 400;
+    src: url('../fonts/ANDALEMO.TTF');
+  }
+
+.Nav {
+    background-color: #040404;
+    min-height: 9vh;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    font-family: Andale;
+    color: #B48C36;
+}
+
+.Nav > *{
+    position: absolute;
+}
+
+.home {
+    font-size: calc(12px + 2vmin);
+    color: #B48C36;
+    text-decoration: none;
+    left: 3vw;
+}
+
+.development {
+    font-size: calc(4px + 2vmin);
+    color: #B48C36;
+    text-decoration: none;
+    left: 65vw;
+} 
+
+.pipe {
+    font-size: calc(4px + 2vmin);
+    color: #B48C36;
+    text-decoration: none;
+    left: 78vw;
+}
+
+.photography {
+    font-size: calc(4px + 2vmin);
+    color: #B48C36;
+    text-decoration: none;
+    left: 83vw;
+}
